@@ -2,9 +2,10 @@
   "name": "@dc222bz/calories-counter",
   "version": "1.0.4",
   "description": "calculates calories for exercises",
+  "type": "module",
   "main": "caloriesCounter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx --node-options=--experimental-vm-modules jest || exit 0"
   },
   "repository": {
     "type": "git",
@@ -15,12 +16,14 @@
     "Counter",
     "Exercises"
   ],
-   "typings": "dist/src/*.js"
-  ,
+  "typings": "dist/src/*.js",
   "author": "Daniel Carlsson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dc222bz/calories-counter/issues"
   },
-  "homepage": "https://github.com/dc222bz/calories-counter#readme"
+  "homepage": "https://github.com/dc222bz/calories-counter#readme",
+  "dependencies": {
+    "jest": "^29.2.0"
+  }
 }
