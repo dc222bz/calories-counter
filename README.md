@@ -4,7 +4,7 @@ A module that can calculate the BMI and maintenance calories needed depending on
 
 # Install
 ```bash
-npm install @my-dc222bz/calories-counter
+npm install @dc222bz/calories-counter
 ```
 
 # Usage

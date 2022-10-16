@@ -1,5 +1,5 @@
 {
-  "name": "@my-dc222bz/calories-counter",
+  "name": "@dc222bz/calories-counter",
   "version": "1.0.0",
   "description": "calculates calories for exercises",
   "main": "caloriesCounter.js",
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/dc222bz/calories-counter.git"
   },
+  "keywords": [
+    "Calories",
+    "Counter",
+    "Exercises"
+  ],
   "author": "Daniel Carlsson",
   "license": "MIT",
   "bugs": {
