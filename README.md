@@ -1,6 +1,6 @@
 # calories-counter
 
-A module that can calculate the BMI and maintenance calories needed depending on a persons lenght, height, age, sex and activity level. It also have methods for calculate calories burned during different exercises, the result is depending of how long the time it takes to complete the exercise and the weight of the person doing the exercise.
+A module that can calculate the Basal Metabolic Rate (BMR) and the Active Metabolic Rate (AMR) needed depending on a persons lenght, height, age, sex and activity level. It also have methods for calculate calories burned during different exercises, the result is depending of how long the time it takes to complete the exercise and the weight of the person doing the exercise.
 
 # Install
 ```bash
@@ -10,7 +10,7 @@ npm install @dc222bz/calories-counter
 # Usage
 
 ```js
-import { CaloriesCounter } from 'caloriesCounter.js'
+import { CaloriesCounter } from '@dc222bz/calories-counter/caloriesCounter.js'
 
 // height, weight, age, sex, and activity level as inputs.
 const person = new CaloriesCounter(185, 79, 31, 'male', 1.4) 
