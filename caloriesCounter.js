@@ -1,12 +1,12 @@
 /**
- * Module for the type CaloriesCounterForExercises
+ * Module for the type CaloriesCounter
  *
  * @author Daniel Carlsson <dc222bz@student.lnu.se>
  * @version 1.0.0
  */
 
 /**
- * Represents class of the CaloriesCounterForExercises.
+ * Represents class of the CaloriesCounter.
  *
  * @class
  **/
@@ -20,7 +20,7 @@ export class CaloriesCounter {
   #activemetabolicrate // The calories maintencance level of the person.
 
   /**
-   * Creates a CaloriesCounterForExercises.
+   * Creates a CaloriesCounter.
    *
    * @param { number } height height in centimeters [0-250].
    * @param { number } weight weight in kilograms [0-500].
@@ -206,9 +206,9 @@ export class CaloriesCounter {
   }
 
   /**
-   * Returns the daily maintenance calories.
+   * Returns the daily AMR calories.
    *
-   * @returns { number } the value of the daily maintenance calories (kcal/day).
+   * @returns { number } the value of the daily AMR calories (kcal/day).
    */
   getActiveMetabolicRate () {
     return this.#activemetabolicrate
