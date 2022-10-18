@@ -28,6 +28,11 @@ const ActiveMetabolicRate = person.getActiveMetabolicRate()
 // time as input.
 const caloriesBurned = person.burnedCaloriesRunning(45)
 ```
+# Example App
+
+Productionbased App - [https://calories-counter.netlify.app/](https://calories-counter.netlify.app/)
+
+Codebase for App - [https://github.com/dc222bz/1DV610-Laboration2](https://github.com/dc222bz/1DV610-Laboration2)
 
 # Contributing
 

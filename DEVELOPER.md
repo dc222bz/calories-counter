@@ -12,6 +12,12 @@ För att köra testen finns scriptet: npm run test.
 
 Applikationen är skriven i vanilla JS.
 
+# EXEMPEL APPLIKATION
+
+Produktionsatt Applikation - [https://calories-counter.netlify.app/](https://calories-counter.netlify.app/)
+
+Repo för Applikationen - [https://github.com/dc222bz/1DV610-Laboration2](https://github.com/dc222bz/1DV610-Laboration2)
+
 # FRAMTIDA FÖRBÄTTRINGAR
 
 - Att man kan implementera att modulen kan läsa in data från en extern fil med uppgifter om olika träningsaktiviteter (Öka abstraktionen för modulen).
